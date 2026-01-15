@@ -1,4 +1,4 @@
-\# SaaS products: a strained relationship + QuickBooks + Python/Flask
+# SaaS products: a strained relationship + QuickBooks + Python/Flask
 
 
 
@@ -28,7 +28,7 @@ The Build: Retool Mobile Receipt Tracking App
 
 The final mobile app is streamlined and simple to use: a single screen with text inputs, several dropdowns, and an image uploader. The app contains only the specific fields needed for Red Roots accounting system, with appropriate data validation to reduce margins for error.
 
-(https://github.com/realdev71/Webapp-Quickbooks-Flask-React/blob/master/images/1.jpg?raw=true)
+![dashboard snap](https://github.com/realdev71/Webapp-Quickbooks-Flask-React/blob/master/images/1.jpg?raw=true)
 
 When the user opens the app (which can be saved to the phone home screen), they are guided through various data input steps. Retool allowed them to create an app optimized for user experience as well as accounting organization:‍
 
@@ -42,7 +42,7 @@ The components’ preconfigured data validation options, such as currencies, dat
 
 Finally, default values also make form filling as streamlined and user-friendly as possible: the ‘User entering receipt’ field is populated by default with the Retool global current\_user.fullName, the date defaults to the present day using the built-in ‘Moment’ library, and placeholder texts guide the user with expected data types. These were all simple to program in Retool in the right-hand inspector column.
 
-(https://github.com/realdev71/Webapp-Quickbooks-Flask-React/blob/master/images/2.jpg?raw=true)
+![dashboard snap](https://github.com/realdev71/Webapp-Quickbooks-Flask-React/blob/master/images/2.jpg?raw=true)
 
 Internal apps with growth and flexibility potential
 
@@ -50,7 +50,7 @@ Internal apps with growth and flexibility potential
 
 “A key part of our decision to use Retool was the knowledge that any time and money invested in their internal infrastructure didn’t create any lock-in to a specific backend, and could adjust to our scaling needs.”
 
-‍(https://github.com/realdev71/Webapp-Quickbooks-Flask-React/blob/master/images/3.jpg?raw=true)
+![dashboard snap]‍(https://github.com/realdev71/Webapp-Quickbooks-Flask-React/blob/master/images/3.jpg?raw=true)
 
 Once the databases for their mobile app were set up and connected in Retool, it was quick and easy to develop a second read-only, web-based app that retrieved this data from both AirTable and the S3 bucket and presented it clearly, useful for business intelligence on expenses for the stakeholders. Here, the manager can drill down into expenses by category, and see exactly how a rental property is performing. With Sam, the Bold Tech team are currently developing a further tool to present this information with charts and analytics, to create a long-term, business intelligence infrastructure.
 
